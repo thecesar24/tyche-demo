@@ -179,32 +179,107 @@
         </div>
     </section>
 
-    <!-- 4. RESEÑAS -->
-    <section class="py-24 px-6 bg-tyche-dark text-white">
-        <div class="max-w-7xl mx-auto">
-            <h2 class="text-4xl font-bold text-center mb-16 italic">Lo que dicen nuestros comensales</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Testimonio 1 -->
-                <div class="bg-stone-800 p-8 rounded-lg border-t-4 border-tyche-gold">
-                    <div class="flex text-tyche-gold mb-4">★★★★★</div>
-                    <p class="italic text-stone-300 mb-6">"La comida estaba espectacular, sobre todo el chuletón y las croquetas de jamón que es lo que nosotras pedimos. Tienen un menú excelente..."</p>
-                    <p class="font-bold text-tyche-gold">— Rocio Fernandez Rubio</p>
-                </div>
-                <!-- Testimonio 2 -->
-                <div class="bg-stone-800 p-8 rounded-lg border-t-4 border-tyche-gold">
-                    <div class="flex text-tyche-gold mb-4">★★★★★</div>
-                    <p class="italic text-stone-300 mb-6">"Espectacular el menú para 2 personas típico de Ávila. Somos deportistas de muy buen comer y aún así el chuletón nos derrotó. Calidad increíble."</p>
-                    <p class="font-bold text-tyche-gold">— Andrea Baltanás</p>
-                </div>
-                <!-- Testimonio 3 -->
-                <div class="bg-stone-800 p-8 rounded-lg border-t-4 border-tyche-gold">
-                    <div class="flex text-tyche-gold mb-4">★★★★★</div>
-                    <p class="italic text-stone-300 mb-6">"Una experiencia maravillosa: la comida rica, casera, cantidad y calidad. Los camareros atentos, agradables... Volveremos seguro."</p>
-                    <p class="font-bold text-tyche-gold">— Laura Collado</p>
-                </div>
+  <!-- SECCIÓN RESEÑAS CON CARRUSEL -->
+<section class="py-24 px-6 bg-stone-900 text-white overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 italic">Lo que dicen nuestros comensales</h2>
+            <div class="flex justify-center items-center gap-2 mb-2">
+                <!-- Icono de Google -->
+                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12.48 10.92v3.28h7.84c-.24 1.84-2.21 5.42-7.84 5.42-4.84 0-8.77-4.04-8.77-9s3.93-9 8.77-9c2.76 0 4.61 1.17 5.66 2.18l2.59-2.5c-1.66-1.55-3.82-2.5-8.25-2.5C5.48 0 0 5.48 0 12s5.48 12 12.48 12c7.31 0 12.16-5.14 12.16-12.36 0-.83-.09-1.47-.2-2.09h-11.96z"/>
+                </svg>
+                <span class="text-stone-400 tracking-widest uppercase text-sm">Opiniones en Google</span>
+            </div>
+            <div class="flex justify-center text-amber-400 text-xl">
+                ★★★★★ <span class="ml-2 text-white text-sm font-bold">4.9/5</span>
             </div>
         </div>
-    </section>
+
+        <!-- Slider main container -->
+        <div class="swiper mySwiper pb-12">
+            <div class="swiper-wrapper">
+                
+                <!-- Reseña 1 -->
+                <div class="swiper-slide h-auto">
+                    <div class="bg-stone-800 p-8 rounded-2xl border border-stone-700 h-full flex flex-col justify-between hover:border-tyche-gold transition-colors">
+                        <div>
+                            <div class="text-tyche-gold mb-4">★★★★★</div>
+                            <p class="text-stone-300 italic leading-relaxed">"La comida estaba espectacular, sobre todo el chuletón y las croquetas de jamón que es lo que nosotras pedimos. Tienen un menú excelente..."</p>
+                        </div>
+                        <div class="mt-8 flex items-center gap-3">
+                            <div class="w-10 h-10 bg-tyche-gold rounded-full flex items-center justify-center text-stone-900 font-bold">R</div>
+                            <div>
+                                <p class="font-bold text-white">Rocio Fernandez Rubio</p>
+                                <p class="text-xs text-stone-500">Reseña de Google</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reseña 2 -->
+                <div class="swiper-slide h-auto">
+                    <div class="bg-stone-800 p-8 rounded-2xl border border-stone-700 h-full flex flex-col justify-between hover:border-tyche-gold transition-colors">
+                        <div>
+                            <div class="text-tyche-gold mb-4">★★★★★</div>
+                            <p class="text-stone-300 italic leading-relaxed">"Espectacular el menú para 2 personas típico de Ávila. Somos deportistas de muy buen comer y aún así el chuletón nos derrotó. Calidad increíble."</p>
+                        </div>
+                        <div class="mt-8 flex items-center gap-3">
+                            <div class="w-10 h-10 bg-tyche-gold rounded-full flex items-center justify-center text-stone-900 font-bold">A</div>
+                            <div>
+                                <p class="font-bold text-white">Andrea Baltanás</p>
+                                <p class="text-xs text-stone-500">Reseña de Google</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reseña 3 -->
+                <div class="swiper-slide h-auto">
+                    <div class="bg-stone-800 p-8 rounded-2xl border border-stone-700 h-full flex flex-col justify-between hover:border-tyche-gold transition-colors">
+                        <div>
+                            <div class="text-tyche-gold mb-4">★★★★★</div>
+                            <p class="text-stone-300 italic leading-relaxed">"Una experiencia maravillosa: la comida rica, casera, cantidad y calidad. Los camareros atentos, agradables... Volveremos seguro."</p>
+                        </div>
+                        <div class="mt-8 flex items-center gap-3">
+                            <div class="w-10 h-10 bg-tyche-gold rounded-full flex items-center justify-center text-stone-900 font-bold">L</div>
+                            <div>
+                                <p class="font-bold text-white">Laura Collado</p>
+                                <p class="text-xs text-stone-500">Reseña de Google</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reseña 4 (Opcional - Ejemplo de relleno) -->
+                <div class="swiper-slide h-auto">
+                    <div class="bg-stone-800 p-8 rounded-2xl border border-stone-700 h-full flex flex-col justify-between hover:border-tyche-gold transition-colors">
+                        <div>
+                            <div class="text-tyche-gold mb-4">★★★★★</div>
+                            <p class="text-stone-300 italic leading-relaxed">"El mejor chuletón que he probado en Ávila. El trato de los camareros es de diez, te hacen sentir como en casa desde que entras."</p>
+                        </div>
+                        <div class="mt-8 flex items-center gap-3">
+                            <div class="w-10 h-10 bg-tyche-gold rounded-full flex items-center justify-center text-stone-900 font-bold">J</div>
+                            <div>
+                                <p class="font-bold text-white">Juan Manuel S.</p>
+                                <p class="text-xs text-stone-500">Reseña de Google</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Paginación (Puntos) -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="text-center mt-8">
+            <a href="#" class="inline-flex items-center gap-2 text-tyche-gold border border-tyche-gold/30 px-6 py-2 rounded-full hover:bg-tyche-gold hover:text-stone-900 transition-all text-sm uppercase font-bold tracking-widest">
+                Ver más reseñas en Google Maps
+            </a>
+        </div>
+    </div>
+</section>
 
     <!-- 5. CONTACTO Y PIE -->
     <section id="contacto" class="py-24 px-6 bg-white">
@@ -265,3 +340,43 @@
 
 </body>
 </html>
+
+<!-- Scripts de Swiper (Añadir antes del cierre del </body>) -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+        },
+    });
+</script>
+
+<style>
+    /* Personalización de los puntos del carrusel */
+    .swiper-pagination-bullet {
+        background: #fff !important;
+        opacity: 0.3;
+    }
+    .swiper-pagination-bullet-active {
+        background: #c4a47c !important; /* El color dorado Tyche */
+        opacity: 1;
+    }
+</style>
