@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyché Ávila | Auténtica Cocina Tradicional y Parrilla</title>
+    <meta name="description" content="En Tyché Ávila honramos la tierra con el auténtico Chuletón de la dehesa, raciones caseras abundantes y el trato familiar.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .font-serif { font-family: 'Playfair Display', serif; }
+        .bg-tyche-dark { background-color: #1a1a1a; }
+        .text-tyche-gold { color: #c4a47c; }
+        .bg-tyche-gold { background-color: #c4a47c; }
+        .bg-tyche-red { background-color: #8b0000; }
+        .menu-item-dots { flex-grow: 1; border-bottom: 1px dotted #ccc; margin: 0 10px; margin-bottom: 5px; }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter text-stone-900 uppercase">
+                Tyché<span class="text-tyche-gold">Ávila</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium text-sm uppercase tracking-widest">
+                <a href="#inicio" class="hover:text-tyche-gold transition">Inicio</a>
+                <a href="#nosotros" class="hover:text-tyche-gold transition">Nosotros</a>
+                <a href="#carta" class="hover:text-tyche-gold transition">Carta</a>
+                <a href="#contacto" class="hover:text-tyche-gold transition">Contacto</a>
+            </div>
+            <a href="tel:920258502" class="bg-stone-900 text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-tyche-red transition">Llamar</a>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <section id="inicio" class="relative h-screen flex items-center justify-center overflow-hidden pt-16">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=2000" 
+                 alt="Parrilla tradicional chuletón" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/60"></div>
+        </div>
+        <div class="relative z-10 text-center px-6 max-w-5xl">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl text-white mb-6 leading-tight">
+                Auténtica cocina tradicional y <span class="text-tyche-gold italic">parrilla</span> en el corazón de Ávila
+            </h1>
+            <p class="text-stone-300 text-lg md:text-xl mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+                En Tyché Ávila honramos la tierra con el auténtico Chuletón de la dehesa, raciones caseras abundantes y el trato familiar que te hará sentir como en casa.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:920258502" class="bg-tyche-gold hover:bg-white hover:text-stone-900 text-white px-10 py-5 rounded-md font-bold text-lg transition-all shadow-xl uppercase tracking-widest">
+                    Reservar Mesa Ahora
+                </a>
+                <a href="#carta" class="bg-white/10 backdrop-blur-md border border-white/30 text-white px-10 py-5 rounded-md font-bold text-lg hover:bg-white/20 transition uppercase tracking-widest">
+                    Ver Carta
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. SOBRE NOSOTROS -->
+    <section id="nosotros" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="space-y-6">
+                <span class="text-tyche-gold font-bold uppercase tracking-widest text-sm">— Nuestra Historia</span>
+                <h2 class="text-4xl md:text-5xl font-bold text-stone-900">Bienvenidos a Tyché Ávila</h2>
+                <p class="text-lg text-stone-600 leading-relaxed">
+                    Bienvenidos a Tyché Ávila, tu rincón de confianza en la capital amurallada para disfrutar de la verdadera gastronomía abulense. Nacidos de la pasión por los fuegos y el respeto a la cocina tradicional, nos hemos convertido en el punto de encuentro ideal tanto para los vecinos de Ávila como para los viajeros que buscan una experiencia culinaria honesta, rica y, sobre todo, casera.
+                </p>
+                <p class="text-lg text-stone-600 leading-relaxed">
+                    Nuestra gran especialidad es la parrilla, donde seleccionamos minuciosamente las mejores carnes con Denominación de Origen para ofrecerte el legendario Chuletón de Ávila, cocinado en su punto exacto. Pero en Tyché no solo se viene a comer carne; nuestras famosas croquetas de jamón, las patatas revolconas y una gran variedad de raciones elaboradas con mimo completan una propuesta pensada para los amantes del buen comer.
+                </p>
+                <p class="text-lg text-stone-600 leading-relaxed italic border-l-4 border-tyche-gold pl-6">
+                    Sabemos que una gran comida no está completa sin un servicio a la altura. Por eso, en nuestro salón te espera un ambiente acogedor y un equipo de camareros atentos y agradables. ¡Ven con hambre, nosotros nos encargamos del resto!
+                </p>
+            </div>
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1000" alt="Cocinando carne" class="rounded-lg shadow-2xl">
+                <div class="absolute -bottom-6 -left-6 bg-tyche-dark p-8 rounded-lg text-white hidden md:block">
+                    <p class="text-3xl font-bold text-tyche-gold">100%</p>
+                    <p class="text-xs uppercase tracking-tighter">Ternera de Ávila</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. CARTA DIGITAL -->
+    <section id="carta" class="py-24 bg-stone-100 px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-4">Nuestra Carta</h2>
+                <div class="w-24 h-1 bg-tyche-gold mx-auto"></div>
+            </div>
+
+            <!-- Categories -->
+            <div class="grid gap-12">
+                
+                <!-- ENTRANTES -->
+                <div>
+                    <h3 class="text-2xl font-bold text-tyche-red border-b border-stone-300 pb-2 mb-6 uppercase tracking-widest">Entrantes</h3>
+                    <div class="grid gap-4">
+                        <div class="flex justify-between items-end"><span>Ensalada Mixta de la Casa</span><div class="menu-item-dots"></div><span class="font-bold">8,50 €</span></div>
+                        <div class="flex justify-between items-end"><span>Ensalada Ilustrada Tyché (con ventresca y pimientos asados)</span><div class="menu-item-dots"></div><span class="font-bold">11,50 €</span></div>
+                        <div class="flex justify-between items-end"><span>Ensalada de Tomate con Ventresca</span><div class="menu-item-dots"></div><span class="font-bold">12,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Queso de Oveja Curado</span><div class="menu-item-dots"></div><span class="font-bold">12,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Surtido de Ibéricos</span><div class="menu-item-dots"></div><span class="font-bold">18,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Jamón Ibérico de Bellota</span><div class="menu-item-dots"></div><span class="font-bold">20,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Lomo Ibérico de Bellota</span><div class="menu-item-dots"></div><span class="font-bold">16,00 €</span></div>
+                        <div class="flex justify-between items-end text-tyche-red font-bold"><span>Croquetas Caseras de Jamón Ibérico (Unidad)</span><div class="menu-item-dots"></div><span>1,50 €</span></div>
+                        <div class="flex justify-between items-end"><span>Espárragos con Dos Salsas</span><div class="menu-item-dots"></div><span class="font-bold">8,50 €</span></div>
+                        <div class="flex justify-between items-end"><span>Sopa de Cocido o Sopa Castellana (según temporada)</span><div class="menu-item-dots"></div><span class="font-bold">6,50 €</span></div>
+                    </div>
+                </div>
+
+                <!-- RACIONES TRADICIONALES -->
+                <div>
+                    <h3 class="text-2xl font-bold text-tyche-red border-b border-stone-300 pb-2 mb-6 uppercase tracking-widest">Raciones Tradicionales</h3>
+                    <div class="grid gap-4">
+                        <div class="flex justify-between items-end font-semibold text-stone-900"><span>Patatas Revolconas con sus Torreznos</span><div class="menu-item-dots"></div><span class="font-bold">9,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Oreja a la Plancha adobada</span><div class="menu-item-dots"></div><span class="font-bold">10,50 €</span></div>
+                        <div class="flex justify-between items-end"><span>Morcilla de Ávila a la plancha</span><div class="menu-item-dots"></div><span class="font-bold">8,50 €</span></div>
+                        <div class="flex justify-between items-end"><span>Chorizo de la Olla de Pueblo</span><div class="menu-item-dots"></div><span class="font-bold">8,50 €</span></div>
+                        <div class="flex justify-between items-end"><span>Mollejas de Ternera lechal al ajillo</span><div class="menu-item-dots"></div><span class="font-bold">16,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Calamares a la Romana</span><div class="menu-item-dots"></div><span class="font-bold">12,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Gambas al Ajillo</span><div class="menu-item-dots"></div><span class="font-bold">14,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Sepia a la Plancha con alioli</span><div class="menu-item-dots"></div><span class="font-bold">14,50 €</span></div>
+                        <div class="flex justify-between items-end"><span>Huevos Rotos con Jamón Ibérico</span><div class="menu-item-dots"></div><span class="font-bold">11,50 €</span></div>
+                    </div>
+                </div>
+
+                <!-- CARNES -->
+                <div class="bg-stone-900 text-white p-8 rounded-xl shadow-xl">
+                    <h3 class="text-2xl font-bold text-tyche-gold border-b border-stone-700 pb-2 mb-6 uppercase tracking-widest">Nuestra Parrilla y Carnes de Ávila</h3>
+                    <div class="grid gap-6">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <p class="text-lg font-bold">Chuletón de Ávila de Ternera</p>
+                                <p class="text-xs text-stone-400">Aproximadamente 700g - 800g de puro sabor</p>
+                            </div>
+                            <span class="text-tyche-gold font-bold">26,00 €</span>
+                        </div>
+                        <div class="flex justify-between items-end"><span>Chuletón de Buey Madurado (Kg)</span><div class="menu-item-dots !border-stone-700"></div><span class="font-bold">48,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Solomillo de Ternera de Ávila</span><div class="menu-item-dots !border-stone-700"></div><span class="font-bold">22,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Entrecot de Ternera de Ávila</span><div class="menu-item-dots !border-stone-700"></div><span class="font-bold">18,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Secreto Ibérico a la brasa</span><div class="menu-item-dots !border-stone-700"></div><span class="font-bold">15,00 €</span></div>
+                        <div class="flex justify-between items-end"><span>Hamburguesa Especial Tyché</span><div class="menu-item-dots !border-stone-700"></div><span class="font-bold">12,00 €</span></div>
+                    </div>
+                </div>
+
+                <!-- MENÚS -->
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="border-2 border-tyche-gold p-6 rounded-lg bg-white">
+                        <h4 class="font-bold text-xl mb-4">Menú del Día Tyché</h4>
+                        <p class="text-sm text-stone-600 mb-4">De Lunes a Viernes. Incluye Primero, Segundo, Postre, Pan y Bebida.</p>
+                        <p class="text-2xl font-bold text-stone-900">16,00 €</p>
+                    </div>
+                    <div class="border-2 border-stone-900 p-6 rounded-lg bg-white">
+                        <h4 class="font-bold text-xl mb-4">Menú Degustación ÁVILA</h4>
+                        <p class="text-sm text-stone-600 mb-4">Para 2 personas: Revolconas, Chuletón para compartir, postre casero y vino.</p>
+                        <p class="text-2xl font-bold text-stone-900">46,00 € <span class="text-xs font-normal text-stone-500">(Total 2 personas)</span></p>
+                    </div>
+                </div>
+
+                <!-- POSTRES -->
+                <div class="text-center bg-stone-200/50 p-10 rounded-xl">
+                    <h3 class="text-2xl font-bold text-stone-900 mb-8 uppercase tracking-widest italic">Postres Caseros</h3>
+                    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+                        <div><p class="font-bold">Tarta de Queso</p><p class="text-stone-600">5,50 €</p></div>
+                        <div><p class="font-bold">Flan de Huevo</p><p class="text-stone-600">4,50 €</p></div>
+                        <div><p class="font-bold">Natillas de la Abuela</p><p class="text-stone-600">4,50 €</p></div>
+                        <div><p class="font-bold">Arroz con Leche</p><p class="text-stone-600">4,50 €</p></div>
+                        <div><p class="font-bold">Helados Variados</p><p class="text-stone-600">4,00 €</p></div>
+                        <div><p class="font-bold">Fruta del Tiempo</p><p class="text-stone-600">3,00 €</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. RESEÑAS -->
+    <section class="py-24 px-6 bg-tyche-dark text-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 italic">Lo que dicen nuestros comensales</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonio 1 -->
+                <div class="bg-stone-800 p-8 rounded-lg border-t-4 border-tyche-gold">
+                    <div class="flex text-tyche-gold mb-4">★★★★★</div>
+                    <p class="italic text-stone-300 mb-6">"La comida estaba espectacular, sobre todo el chuletón y las croquetas de jamón que es lo que nosotras pedimos. Tienen un menú excelente..."</p>
+                    <p class="font-bold text-tyche-gold">— Rocio Fernandez Rubio</p>
+                </div>
+                <!-- Testimonio 2 -->
+                <div class="bg-stone-800 p-8 rounded-lg border-t-4 border-tyche-gold">
+                    <div class="flex text-tyche-gold mb-4">★★★★★</div>
+                    <p class="italic text-stone-300 mb-6">"Espectacular el menú para 2 personas típico de Ávila. Somos deportistas de muy buen comer y aún así el chuletón nos derrotó. Calidad increíble."</p>
+                    <p class="font-bold text-tyche-gold">— Andrea Baltanás</p>
+                </div>
+                <!-- Testimonio 3 -->
+                <div class="bg-stone-800 p-8 rounded-lg border-t-4 border-tyche-gold">
+                    <div class="flex text-tyche-gold mb-4">★★★★★</div>
+                    <p class="italic text-stone-300 mb-6">"Una experiencia maravillosa: la comida rica, casera, cantidad y calidad. Los camareros atentos, agradables... Volveremos seguro."</p>
+                    <p class="font-bold text-tyche-gold">— Laura Collado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. CONTACTO Y PIE -->
+    <section id="contacto" class="py-24 px-6 bg-white">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16">
+            <div class="space-y-8">
+                <h2 class="text-4xl font-bold text-stone-900">¡Te Esperamos en Tyché Ávila!</h2>
+                <p class="text-lg text-stone-600">Asegura tu mesa y vive la experiencia de nuestra parrilla tradicional. Las plazas suelen llenarse rápido en fines de semana y festivos.</p>
+                
+                <div class="space-y-6">
+                    <a href="tel:920258502" class="flex items-center gap-4 text-2xl font-bold text-tyche-red hover:scale-105 transition-transform origin-left">
+                        <span class="bg-tyche-red text-white p-3 rounded-full">📞</span>
+                        920 25 85 02
+                    </a>
+                    <div class="flex items-start gap-4 text-stone-700">
+                        <span class="bg-stone-100 p-3 rounded-full">📍</span>
+                        <p class="text-lg">Av. Portugal, 05001 Ávila, España.</p>
+                    </div>
+                    <div class="flex items-start gap-4 text-stone-700">
+                        <span class="bg-stone-100 p-3 rounded-full">⏰</span>
+                        <div>
+                            <p class="font-bold">Lunes a Domingo</p>
+                            <p>Almuerzos: 12:30 a 17:00</p>
+                            <p>Cenas: 20:00 a 00:00</p>
+                            <p class="text-sm text-stone-500 mt-2 italic">(Cocina abierta hasta 16:30 y 23:30)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[450px] w-full rounded-xl overflow-hidden shadow-inner bg-stone-200 relative">
+                <!-- Mock Map -->
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-stone-400">
+                    <svg class="w-16 h-16 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path></svg>
+                    <p>Ubicación: Av. Portugal, Ávila</p>
+                    <p class="text-xs uppercase mt-2">Mapa interactivo no disponible en demo</p>
+                </div>
+                <!-- This would be an iframe normally -->
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-tyche-red">
+                    <svg class="w-10 h-10 animate-bounce" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-stone-900 py-12 px-6 text-center border-t border-stone-800">
+        <div class="text-2xl font-bold text-white mb-6 tracking-tighter uppercase">
+            Tyché<span class="text-tyche-gold">Ávila</span>
+        </div>
+        <p class="text-stone-500 text-sm">© 2024 Tyché Ávila - Sabores de nuestra tierra.</p>
+        <p class="text-stone-600 text-xs mt-2 italic">Honramos el producto, servimos tradición.</p>
+    </footer>
+
+    <!-- Fixed Booking Button for Mobile -->
+    <div class="fixed bottom-6 right-6 z-50 md:hidden">
+        <a href="tel:920258502" class="bg-tyche-red text-white h-16 w-16 rounded-full shadow-2xl flex items-center justify-center animate-pulse">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        </a>
+    </div>
+
+</body>
+</html>
