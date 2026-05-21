@@ -324,12 +324,33 @@
         </div>
     </section>
 
-    <footer class="bg-stone-900 py-12 px-6 text-center border-t border-stone-800">
-        <div class="text-2xl font-bold text-white mb-6 tracking-tighter uppercase">
-            Tyché<span class="text-tyche-gold">Ávila</span>
+    <footer class="main-footer">
+        <div class="footer-container">
+
+            <!-- Bloque 1: Horarios -->
+            <div class="footer-block">
+                <h3>Horario de Apertura</h3>
+                <p><strong>Lunes a Domingo:</strong></p>
+                <p>Almuerzos: 12:30 a 17:00</p>
+                <p>Cenas: 20:00 a 00:00</p>
+                <p class="footer-note">* Cocina abierta hasta las 16:30 y 23:30</p>
+            </div>
+
+            <!-- Bloque 2: Contacto y Reservas -->
+            <div class="footer-block">
+                <h3>Reservas y Contacto</h3>
+                <p>📍 Av. Portugal, 05001 Ávila</p>
+                <p>📞 <a href="tel:920258502" class="footer-phone">920 25 85 02</a></p>
+                <a href="tel:920258502" class="footer-btn">Llamar para Reservar</a>
+            </div>
+
         </div>
-        <p class="text-stone-500 text-sm">© 2024 Tyché Ávila - Sabores de nuestra tierra.</p>
-        <p class="text-stone-600 text-xs mt-2 italic">Honramos el producto, servimos tradición.</p>
+
+        <!-- Bloque 3: Tu Firma y Copyright -->
+        <div class="footer-credits">
+            <p>&copy; 2026 Tyché Ávila. Todos los derechos reservados.</p>
+            <p>Diseñado y programado con <span>&hearts;</span> por <a href="https://github.com/thecesar24" target="_blank" rel="noopener noreferrer">César Pérez</a></p>
+        </div>
     </footer>
 
     <!-- Fixed Booking Button for Mobile -->
@@ -379,5 +400,98 @@
     .swiper-pagination-bullet-active {
         background: #c4a47c !important; /* El color dorado Tyche */
         opacity: 1;
+    }
+    /* Contenedor Principal del Footer */
+    .main-footer {
+        background-color: #1a1a1a; /* Gris muy oscuro */
+        color: #ffffff;
+        padding: 60px 20px 20px 20px;
+        font-family: 'Poppins', sans-serif; /* O la que uses para el texto */
+    }
+
+    /* Disposición en malla para que en PC salga en columnas y en móvil en vertical */
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* Cada bloque de información */
+    .footer-block {
+        flex: 1;
+        min-width: 280px;
+        text-align: center;
+    }
+
+    .footer-block h3 {
+        font-family: 'Playfair Display', serif; /* Tu fuente elegante para títulos */
+        color: #C5A880; /* Un toque dorado/ocre para los títulos del footer */
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .footer-block p {
+        font-size: 16px;
+        color: #cccccc;
+        line-height: 1.6;
+        margin: 8px 0;
+    }
+
+    .footer-note {
+        font-size: 13px !important;
+        color: #888888 !important;
+        font-style: italic;
+    }
+
+    /* Enlaces del teléfono */
+    .footer-phone {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* Botón de llamada dentro del footer */
+    .footer-btn {
+        display: inline-block;
+        background-color: #8B1E0F; /* El granate de la web */
+        color: #ffffff;
+        text-decoration: none;
+        padding: 12px 25px;
+        border-radius: 4px;
+        margin-top: 15px;
+        font-weight: 600;
+        transition: background 0.3s ease;
+    }
+
+    .footer-btn:hover {
+        background-color: #a82513;
+    }
+
+    /* Estilo de tus Créditos */
+    .footer-credits {
+        text-align: center;
+        border-top: 1px solid #333333;
+        padding-top: 20px;
+        font-size: 14px;
+        color: #777777;
+    }
+
+    .footer-credits span {
+        color: #8B1E0F; /* Corazón granate */
+    }
+
+    .footer-credits a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .footer-credits a:hover {
+        color: #C5A880;
+        text-decoration: underline;
     }
 </style>
